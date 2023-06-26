@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/zorindmitrii/Documents/Swift/SwiftUI/MVVMUIAsyncAwait/MVVMUITest.xcodeproj">
    </FileRef>
 </Workspace>

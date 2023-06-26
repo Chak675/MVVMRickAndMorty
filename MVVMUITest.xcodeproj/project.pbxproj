@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1890C5302A44B0B60009701A /* CharactersViewErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890C52F2A44B0B60009701A /* CharactersViewErrorAlert.swift */; };
+		1890C5322A44BBFC0009701A /* NetworkInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890C5312A44BBFC0009701A /* NetworkInteractor.swift */; };
 		18C2E57A2A39BF7B00B6E687 /* MVVMUIAsyncAwaitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2E5792A39BF7B00B6E687 /* MVVMUIAsyncAwaitApp.swift */; };
-		18C2E57C2A39BF7B00B6E687 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2E57B2A39BF7B00B6E687 /* ContentView.swift */; };
+		18C2E57C2A39BF7B00B6E687 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2E57B2A39BF7B00B6E687 /* RootView.swift */; };
 		18C2E57E2A39BF7C00B6E687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C2E57D2A39BF7C00B6E687 /* Assets.xcassets */; };
 		18C2E5812A39BF7C00B6E687 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C2E5802A39BF7C00B6E687 /* Preview Assets.xcassets */; };
+		18DAC7312A3CDC0D00BEAE30 /* CharactersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DAC7302A3CDC0D00BEAE30 /* CharactersModel.swift */; };
+		18DAC7332A3CDC5800BEAE30 /* CharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DAC7322A3CDC5700BEAE30 /* CharactersView.swift */; };
+		18DAC7352A3CDC8C00BEAE30 /* CharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DAC7342A3CDC8C00BEAE30 /* CharactersViewModel.swift */; };
+		18F6F2812A3CDDA20049D8FD /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F2802A3CDDA20049D8FD /* DetailsView.swift */; };
+		18F6F2862A3CE0530049D8FD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F2852A3CE0530049D8FD /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18C2E5762A39BF7B00B6E687 /* MVVMUIAsyncAwait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMUIAsyncAwait.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1890C52F2A44B0B60009701A /* CharactersViewErrorAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewErrorAlert.swift; sourceTree = "<group>"; };
+		1890C5312A44BBFC0009701A /* NetworkInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInteractor.swift; sourceTree = "<group>"; };
+		18C2E5762A39BF7B00B6E687 /* MVVMUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C2E5792A39BF7B00B6E687 /* MVVMUIAsyncAwaitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMUIAsyncAwaitApp.swift; sourceTree = "<group>"; };
-		18C2E57B2A39BF7B00B6E687 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18C2E57B2A39BF7B00B6E687 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		18C2E57D2A39BF7C00B6E687 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C2E5802A39BF7C00B6E687 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18DAC7302A3CDC0D00BEAE30 /* CharactersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersModel.swift; sourceTree = "<group>"; };
+		18DAC7322A3CDC5700BEAE30 /* CharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersView.swift; sourceTree = "<group>"; };
+		18DAC7342A3CDC8C00BEAE30 /* CharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewModel.swift; sourceTree = "<group>"; };
+		18F6F2802A3CDDA20049D8FD /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		18F6F2852A3CE0530049D8FD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +57,7 @@
 		18C2E5772A39BF7B00B6E687 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18C2E5762A39BF7B00B6E687 /* MVVMUIAsyncAwait.app */,
+				18C2E5762A39BF7B00B6E687 /* MVVMUITest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +65,10 @@
 		18C2E5782A39BF7B00B6E687 /* MVVMUIAsyncAwait */ = {
 			isa = PBXGroup;
 			children = (
+				18F6F2842A3CE0310049D8FD /* Networking */,
 				18C2E5792A39BF7B00B6E687 /* MVVMUIAsyncAwaitApp.swift */,
-				18C2E57B2A39BF7B00B6E687 /* ContentView.swift */,
+				18DAC72D2A3CDA9900BEAE30 /* Scenes */,
+				18DAC72F2A3CDABC00BEAE30 /* Models */,
 				18C2E57D2A39BF7C00B6E687 /* Assets.xcassets */,
 				18C2E57F2A39BF7C00B6E687 /* Preview Content */,
 			);
@@ -67,12 +83,57 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		18DAC72D2A3CDA9900BEAE30 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				18C2E57B2A39BF7B00B6E687 /* RootView.swift */,
+				18DAC72E2A3CDAA900BEAE30 /* CharactersView */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		18DAC72E2A3CDAA900BEAE30 /* CharactersView */ = {
+			isa = PBXGroup;
+			children = (
+				18DAC7322A3CDC5700BEAE30 /* CharactersView.swift */,
+				18DAC7342A3CDC8C00BEAE30 /* CharactersViewModel.swift */,
+				1890C52F2A44B0B60009701A /* CharactersViewErrorAlert.swift */,
+				18DAC7362A3CDD2F00BEAE30 /* CharacterDetailsView */,
+			);
+			path = CharactersView;
+			sourceTree = "<group>";
+		};
+		18DAC72F2A3CDABC00BEAE30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18DAC7302A3CDC0D00BEAE30 /* CharactersModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18DAC7362A3CDD2F00BEAE30 /* CharacterDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				18F6F2802A3CDDA20049D8FD /* DetailsView.swift */,
+			);
+			path = CharacterDetailsView;
+			sourceTree = "<group>";
+		};
+		18F6F2842A3CE0310049D8FD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				18F6F2852A3CE0530049D8FD /* NetworkManager.swift */,
+				1890C5312A44BBFC0009701A /* NetworkInteractor.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18C2E5752A39BF7B00B6E687 /* MVVMUIAsyncAwait */ = {
+		18C2E5752A39BF7B00B6E687 /* MVVMUITest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18C2E5842A39BF7C00B6E687 /* Build configuration list for PBXNativeTarget "MVVMUIAsyncAwait" */;
+			buildConfigurationList = 18C2E5842A39BF7C00B6E687 /* Build configuration list for PBXNativeTarget "MVVMUITest" */;
 			buildPhases = (
 				18C2E5722A39BF7B00B6E687 /* Sources */,
 				18C2E5732A39BF7B00B6E687 /* Frameworks */,
@@ -82,9 +143,9 @@
 			);
 			dependencies = (
 			);
-			name = MVVMUIAsyncAwait;
+			name = MVVMUITest;
 			productName = MVVMUIAsyncAwait;
-			productReference = 18C2E5762A39BF7B00B6E687 /* MVVMUIAsyncAwait.app */;
+			productReference = 18C2E5762A39BF7B00B6E687 /* MVVMUITest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +163,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 18C2E5712A39BF7B00B6E687 /* Build configuration list for PBXProject "MVVMUIAsyncAwait" */;
+			buildConfigurationList = 18C2E5712A39BF7B00B6E687 /* Build configuration list for PBXProject "MVVMUITest" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +176,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18C2E5752A39BF7B00B6E687 /* MVVMUIAsyncAwait */,
+				18C2E5752A39BF7B00B6E687 /* MVVMUITest */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +198,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C2E57C2A39BF7B00B6E687 /* ContentView.swift in Sources */,
+				18DAC7312A3CDC0D00BEAE30 /* CharactersModel.swift in Sources */,
+				1890C5322A44BBFC0009701A /* NetworkInteractor.swift in Sources */,
+				18C2E57C2A39BF7B00B6E687 /* RootView.swift in Sources */,
+				18DAC7332A3CDC5800BEAE30 /* CharactersView.swift in Sources */,
+				18F6F2862A3CE0530049D8FD /* NetworkManager.swift in Sources */,
 				18C2E57A2A39BF7B00B6E687 /* MVVMUIAsyncAwaitApp.swift in Sources */,
+				18DAC7352A3CDC8C00BEAE30 /* CharactersViewModel.swift in Sources */,
+				1890C5302A44B0B60009701A /* CharactersViewErrorAlert.swift in Sources */,
+				18F6F2812A3CDDA20049D8FD /* DetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +388,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18C2E5712A39BF7B00B6E687 /* Build configuration list for PBXProject "MVVMUIAsyncAwait" */ = {
+		18C2E5712A39BF7B00B6E687 /* Build configuration list for PBXProject "MVVMUITest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18C2E5822A39BF7C00B6E687 /* Debug */,
@@ -329,7 +397,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18C2E5842A39BF7C00B6E687 /* Build configuration list for PBXNativeTarget "MVVMUIAsyncAwait" */ = {
+		18C2E5842A39BF7C00B6E687 /* Build configuration list for PBXNativeTarget "MVVMUITest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18C2E5852A39BF7C00B6E687 /* Debug */,

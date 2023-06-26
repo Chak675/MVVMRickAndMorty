@@ -11,7 +11,7 @@ import SwiftUI
 struct MVVMUIAsyncAwaitApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
     }
 }
