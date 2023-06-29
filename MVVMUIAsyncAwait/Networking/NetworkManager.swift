@@ -13,8 +13,6 @@ class NetworkManager {
         case invalidURL = "Invalid URL address"
     }
     
-//    @Published var model: CharactersModel = .default
-    
     @MainActor
     func fetchData(from url: String?, completion: @escaping (Result<CharactersModel, Error>) -> Void) async {
         guard let url, let dataURL = URL(string: url) else {

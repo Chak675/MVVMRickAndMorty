@@ -48,7 +48,6 @@ struct DetailsView: View {
                                 }
                             }
                         }
-                        .background(.orange)
                         .cornerRadius(50)
                         .padding()
                     }

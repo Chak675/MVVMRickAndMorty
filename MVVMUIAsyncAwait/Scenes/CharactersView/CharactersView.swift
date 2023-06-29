@@ -34,7 +34,6 @@ struct CharactersView: View {
                                     ProgressView()
                                 }
                                 .frame(width: 150, height: 150)
-                                
                             }
                             .padding(.horizontal, 20)
                         }
@@ -43,10 +42,8 @@ struct CharactersView: View {
             }
             .alert(error: $viewModel.error)
             .navigationTitle("Characters")
-            .navigationBarTitleDisplayMode(.automatic)
-            .toolbarBackground(Color.secondary, for: .navigationBar)
-            //                .padding()
-            .task { await viewModel.fetchData() }
+            .toolbarBackground(Color(.systemGray), for: .navigationBar)
+            .task { await viewModel.fetch() }
             .toolbar {
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Button("Next") {
@@ -62,8 +59,13 @@ struct CharactersView: View {
                     .disabled(viewModel.model.info.prev == nil)
                 }
             }
-            .background(LinearGradient(gradient: Gradient(colors: [.white, .gray]), startPoint: .bottomLeading,
-                                       endPoint: .topLeading))
+            .background(
+                LinearGradient(
+                    gradient: Gradient(colors: [.white, .gray]),
+                    startPoint: .bottomLeading,
+                    endPoint: .topLeading
+                )
+            )
         }
     }
 }
