@@ -18,7 +18,6 @@ struct Info: Codable {
     let pages: Int
     let next: String?
     let prev: String?
-   
 }
 
 struct Results: Codable, Identifiable {
