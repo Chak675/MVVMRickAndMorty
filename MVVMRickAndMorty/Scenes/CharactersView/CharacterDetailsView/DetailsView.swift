@@ -58,7 +58,6 @@ struct DetailsView: View {
             }
             .navigationTitle("\(character.name)")
             .navigationBarTitleDisplayMode(.inline)
-            //изменить название кнопки на "Back" через tool bar item?.
         }
         .background(LinearGradient(gradient: Gradient(colors: [.white, .gray]), startPoint: .center,
                                    endPoint: .topLeading))

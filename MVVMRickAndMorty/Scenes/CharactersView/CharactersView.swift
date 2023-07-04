@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import LoaderUI
 
 struct CharactersView: View {
     @StateObject var viewModel = CharacterViewModel()
@@ -31,7 +32,7 @@ struct CharactersView: View {
                                 AsyncImage(url: URL(string: "\(character.image)")) { image in
                                     image.resizable()
                                 } placeholder: {
-                                    ProgressView()
+                                    BallZigZag()
                                 }
                                 .frame(width: 150, height: 150)
                             }

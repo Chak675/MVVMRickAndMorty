@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1806F39D2A4DF552004F1D7D /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 1806F39C2A4DF552004F1D7D /* NVActivityIndicatorView */; };
-		1806F39F2A4DF552004F1D7D /* NVActivityIndicatorViewExtended in Frameworks */ = {isa = PBXBuildFile; productRef = 1806F39E2A4DF552004F1D7D /* NVActivityIndicatorViewExtended */; };
+		1806F3A22A509FB7004F1D7D /* LoaderUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1806F3A12A509FB7004F1D7D /* LoaderUI */; };
 		1890C5302A44B0B60009701A /* CharactersViewErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890C52F2A44B0B60009701A /* CharactersViewErrorAlert.swift */; };
 		1890C5322A44BBFC0009701A /* NetworkInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890C5312A44BBFC0009701A /* NetworkInteractor.swift */; };
 		18C2E57A2A39BF7B00B6E687 /* MVVMUIAsyncAwaitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2E5792A39BF7B00B6E687 /* MVVMUIAsyncAwaitApp.swift */; };
@@ -25,7 +24,7 @@
 /* Begin PBXFileReference section */
 		1890C52F2A44B0B60009701A /* CharactersViewErrorAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewErrorAlert.swift; sourceTree = "<group>"; };
 		1890C5312A44BBFC0009701A /* NetworkInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInteractor.swift; sourceTree = "<group>"; };
-		18C2E5762A39BF7B00B6E687 /* MVVMUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C2E5762A39BF7B00B6E687 /* MVVMRickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMRickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C2E5792A39BF7B00B6E687 /* MVVMUIAsyncAwaitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMUIAsyncAwaitApp.swift; sourceTree = "<group>"; };
 		18C2E57B2A39BF7B00B6E687 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		18C2E57D2A39BF7C00B6E687 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,8 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1806F39D2A4DF552004F1D7D /* NVActivityIndicatorView in Frameworks */,
-				1806F39F2A4DF552004F1D7D /* NVActivityIndicatorViewExtended in Frameworks */,
+				1806F3A22A509FB7004F1D7D /* LoaderUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +51,7 @@
 		18C2E56D2A39BF7B00B6E687 = {
 			isa = PBXGroup;
 			children = (
-				18C2E5782A39BF7B00B6E687 /* MVVMUIAsyncAwait */,
+				18C2E5782A39BF7B00B6E687 /* MVVMRickAndMorty */,
 				18C2E5772A39BF7B00B6E687 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,12 +59,12 @@
 		18C2E5772A39BF7B00B6E687 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18C2E5762A39BF7B00B6E687 /* MVVMUITest.app */,
+				18C2E5762A39BF7B00B6E687 /* MVVMRickAndMorty.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18C2E5782A39BF7B00B6E687 /* MVVMUIAsyncAwait */ = {
+		18C2E5782A39BF7B00B6E687 /* MVVMRickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
 				18F6F2842A3CE0310049D8FD /* Networking */,
@@ -76,7 +74,7 @@
 				18C2E57D2A39BF7C00B6E687 /* Assets.xcassets */,
 				18C2E57F2A39BF7C00B6E687 /* Preview Content */,
 			);
-			path = MVVMUIAsyncAwait;
+			path = MVVMRickAndMorty;
 			sourceTree = "<group>";
 		};
 		18C2E57F2A39BF7C00B6E687 /* Preview Content */ = {
@@ -135,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18C2E5752A39BF7B00B6E687 /* MVVMUITest */ = {
+		18C2E5752A39BF7B00B6E687 /* MVVMRickAndMorty */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18C2E5842A39BF7C00B6E687 /* Build configuration list for PBXNativeTarget "MVVMUITest" */;
+			buildConfigurationList = 18C2E5842A39BF7C00B6E687 /* Build configuration list for PBXNativeTarget "MVVMRickAndMorty" */;
 			buildPhases = (
 				18C2E5722A39BF7B00B6E687 /* Sources */,
 				18C2E5732A39BF7B00B6E687 /* Frameworks */,
@@ -147,13 +145,12 @@
 			);
 			dependencies = (
 			);
-			name = MVVMUITest;
+			name = MVVMRickAndMorty;
 			packageProductDependencies = (
-				1806F39C2A4DF552004F1D7D /* NVActivityIndicatorView */,
-				1806F39E2A4DF552004F1D7D /* NVActivityIndicatorViewExtended */,
+				1806F3A12A509FB7004F1D7D /* LoaderUI */,
 			);
 			productName = MVVMUIAsyncAwait;
-			productReference = 18C2E5762A39BF7B00B6E687 /* MVVMUITest.app */;
+			productReference = 18C2E5762A39BF7B00B6E687 /* MVVMRickAndMorty.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -171,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 18C2E5712A39BF7B00B6E687 /* Build configuration list for PBXProject "MVVMUITest" */;
+			buildConfigurationList = 18C2E5712A39BF7B00B6E687 /* Build configuration list for PBXProject "MVVMRickAndMorty" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -181,13 +178,13 @@
 			);
 			mainGroup = 18C2E56D2A39BF7B00B6E687;
 			packageReferences = (
-				1806F39B2A4DF552004F1D7D /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
+				1806F3A02A509FB7004F1D7D /* XCRemoteSwiftPackageReference "LoaderUI" */,
 			);
 			productRefGroup = 18C2E5772A39BF7B00B6E687 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18C2E5752A39BF7B00B6E687 /* MVVMUITest */,
+				18C2E5752A39BF7B00B6E687 /* MVVMRickAndMorty */,
 			);
 		};
 /* End PBXProject section */
@@ -345,7 +342,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MVVMUIAsyncAwait/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MVVMRickAndMorty/Preview Content\"";
 				DEVELOPMENT_TEAM = 4X4DPUCB9C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -374,7 +371,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MVVMUIAsyncAwait/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MVVMRickAndMorty/Preview Content\"";
 				DEVELOPMENT_TEAM = 4X4DPUCB9C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -399,7 +396,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18C2E5712A39BF7B00B6E687 /* Build configuration list for PBXProject "MVVMUITest" */ = {
+		18C2E5712A39BF7B00B6E687 /* Build configuration list for PBXProject "MVVMRickAndMorty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18C2E5822A39BF7C00B6E687 /* Debug */,
@@ -408,7 +405,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18C2E5842A39BF7C00B6E687 /* Build configuration list for PBXNativeTarget "MVVMUITest" */ = {
+		18C2E5842A39BF7C00B6E687 /* Build configuration list for PBXNativeTarget "MVVMRickAndMorty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18C2E5852A39BF7C00B6E687 /* Debug */,
@@ -420,26 +417,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1806F39B2A4DF552004F1D7D /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
+		1806F3A02A509FB7004F1D7D /* XCRemoteSwiftPackageReference "LoaderUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView.git";
+			repositoryURL = "https://github.com/ninjaprox/LoaderUI.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
+				minimumVersion = 0.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1806F39C2A4DF552004F1D7D /* NVActivityIndicatorView */ = {
+		1806F3A12A509FB7004F1D7D /* LoaderUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1806F39B2A4DF552004F1D7D /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
-			productName = NVActivityIndicatorView;
-		};
-		1806F39E2A4DF552004F1D7D /* NVActivityIndicatorViewExtended */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1806F39B2A4DF552004F1D7D /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
-			productName = NVActivityIndicatorViewExtended;
+			package = 1806F3A02A509FB7004F1D7D /* XCRemoteSwiftPackageReference "LoaderUI" */;
+			productName = LoaderUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
